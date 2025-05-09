@@ -168,7 +168,7 @@ const Inventory = () => {
         accessorKey: "sku",
         header: "SKU",
         cell: ({ row }) => (
-          <div className="font-medium">{row.getValue("sku")}</div>
+          <div className="font-small">{row.getValue("sku")}</div>
         ),
       },
       {
